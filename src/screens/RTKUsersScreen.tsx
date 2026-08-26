@@ -155,6 +155,11 @@ export default function RTKUsersScreen({ navigation, }: Props) {
                                     ? '...'
                                     : 'Delete'}
                             </Text>
+                            {/* <Text style={styles.delete}>
+                                {isDeleting
+                                    ? '...'
+                                    : 'Delete'}
+                            </Text> */}
                         </Pressable>
                     </Pressable>
                 )}
