@@ -23,7 +23,7 @@ describe('LoginScreen', () => {
 
     expect(getByText('Welcome back.')).toBeTruthy();
 
-    expect(
+    expect( 
       getByPlaceholderText('Email'),
     ).toBeTruthy();
 
